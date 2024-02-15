@@ -1,24 +1,36 @@
-# README
+# RailsWeatherApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hi, I'm Vivek Bamnelkar. Welcome to RailsWeatherApp! This project is a simple weather application built using Ruby on Rails.
 
-Things you may want to cover:
+### Getting Started
 
-* Ruby version
+To get started with this project, follow these steps:
 
-* System dependencies
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your_username/RailsWeatherApp.git
+   ```
 
-* Configuration
+2. **Navigate to the project directory:**
+   ```bash
+   cd RailsWeatherApp
+   ```
 
-* Database creation
+3. **Install dependencies:**
+   ```bash
+   bundle install
+   ```
 
-* Database initialization
+4. **Start the Rails server:**
+   ```bash
+   rails server
+   ```
 
-* How to run the test suite
+5. **Access the application:**
+   Open your web browser and go to [localhost:3000](http://localhost:3000)
 
-* Services (job queues, cache servers, search engines, etc.)
+### About
 
-* Deployment instructions
+This weather application fetches real-time weather data using the OpenWeatherMap API and displays it on the homepage. It's a great example of integrating APIs into Rails applications to enhance functionality.
 
-* ...
+Feel free to explore the code and customize it according to your needs. Happy coding!
