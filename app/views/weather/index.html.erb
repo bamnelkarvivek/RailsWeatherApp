@@ -1,5 +1,10 @@
-<p>Current Weather in New York City </p>
+<% if @weather['main'] %>
+	<p>Current Weather in New York City </p>
 
-<p>Temperature: <%= @weather['main']['temp'] - 273.15 %>°C></p>
-<p>Humidity: <%= @weather['main']['humidity'] %> </p>
-<p>Wind Speed: <%= @weather['wind']['speed'] * 3.6 %> km/h </p>
+	<p>Temperature: <%= @weather['main']['temp'] - 273.15 %>°C></p>
+	<p>Humidity: <%= @weather['main']['humidity'] %> </p>
+	<p>Wind Speed: <%= @weather['wind']['speed'] * 3.6 %> km/h </p>
+
+<% else %>
+	<code> Please make sure you've updated your "api-key" in controllers/weatherController.rb </code>
+<% end %>
